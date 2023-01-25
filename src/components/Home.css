@@ -3,17 +3,19 @@
   object-fit: cover;
   z-index: -1;
 }
-
+/* #grad {
+  background-image: radial-gradient(circle, red, yellow, green);
+} */
 .home-title {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 5rem;
   margin: 0%;
   padding-top: 16%;
-  color: pink;
+  color:black;
   display: flex;
   justify-content: center;
-  text-shadow: 0 2px 9px rgb(236, 135, 211);
+  text-shadow: 0 2px 9px rgb(178, 230, 173);
 }
 
 .home-subtitle {
