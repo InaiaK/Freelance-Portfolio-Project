@@ -1,0 +1,44 @@
+.about-text {
+  color: pink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+.hide {
+  list-style: none;
+  color: pink;
+  font-size: 18px;
+}
+.about-box {
+  padding: 1.5rem;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 5px 35px rgb(252, 252, 252);
+}
+
+.about-img {
+  width: 100%;
+  height: 50%;
+  padding: 0%;
+  display: flex;
+}
+
+.about-img:hover {
+  opacity: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 3500px) {
+  .grid {
+    padding: 15%;
+  }
+}
