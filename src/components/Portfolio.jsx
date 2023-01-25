@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Portfolio.css";
+//FaMailBulk, FaLinkedin, FaGithub
 // Assets
 import WORK from "../assets/images/work.gif";
 import SOCIAL from "../assets/images/social1.png";
@@ -69,3 +70,37 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+
+    // {
+    //   title: "CONTACT",
+    //   description: (
+    //     <ul className="hide">
+    //       <li>
+    //         <FaMailBulk></FaMailBulk> inaiakenia15@gmail.com
+    //       </li>
+    //       <li>
+    //         <FaGithub></FaGithub>
+    //         <a
+    //           href="https://github.com/InaiaK"
+    //           className="github"
+    //           target="_blank"
+    //           rel="noreferrer"
+    //         >
+    //           GitHub
+    //         </a>
+    //       </li>
+    //       <li>
+    //         <FaLinkedin></FaLinkedin>
+    //         <a
+    //           href="https://www.linkedin.com/in/inaia-martin/"
+    //           className="linkedin"
+    //           target="_blank"
+    //           rel="noreferrer"
+    //         >
+    //           Linkedin
+    //         </a>
+    //       </li>
+    //     </ul>
+    //   ),
+    // },
