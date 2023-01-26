@@ -11,7 +11,7 @@ import { VscAccount } from "react-icons/vsc";
 function TopNavBar() {
   return (
     <Navbar className="navbar" expand="lg">
-      <LinkContainer to="home">
+  <LinkContainer to="home">
         <Navbar.Brand className="brand"> <VscAccount></VscAccount> Carolina Vieira</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -26,7 +26,7 @@ function TopNavBar() {
           <LinkContainer to="/contact">
             <Nav.Link>Contact</Nav.Link>
           </LinkContainer>
-        </Nav>
+        </Nav>    
       </Navbar.Collapse>
     </Navbar>
   );
