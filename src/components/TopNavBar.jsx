@@ -6,13 +6,13 @@ import "./TopNavBar.css";
 import "./Home";
 import "./About";
 import "./Portfolio";
-import { FaCode } from "react-icons/fa";
+import { VscAccount } from "react-icons/vsc";
 
 function TopNavBar() {
   return (
     <Navbar className="navbar" expand="lg">
       <LinkContainer to="home">
-        <Navbar.Brand className="brand"> <FaCode></FaCode> Inaia Martin</Navbar.Brand>
+        <Navbar.Brand className="brand"> <VscAccount></VscAccount> Carolina Vieira</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -23,8 +23,8 @@ function TopNavBar() {
           <LinkContainer to="/about">
             <Nav.Link>About</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/portfolio">
-            <Nav.Link>Portfolio</Nav.Link>
+          <LinkContainer to="/contact">
+            <Nav.Link>Contact</Nav.Link>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>
