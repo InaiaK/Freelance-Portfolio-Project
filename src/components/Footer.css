@@ -9,7 +9,6 @@
   display: flex;
   justify-content: right;
   padding-right: 2%;
-  padding-inline-start: 25%;
 }
 
 @media (min-width: 200px) {
