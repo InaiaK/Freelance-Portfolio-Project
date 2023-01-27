@@ -27,7 +27,7 @@ const Contact = () => {
   const renderCard = ({img, altText, title, description, deployed}, index) => {
     return (
       <Card key={`portfolio-card-${index}`} className="card-box">
-        <Card.Img  src={img} alt={altText} />
+        <Card.Img className="card-img-c" src={img} alt={altText} />
         <Card.Body className="card-body">
           <Button variant="dark" className="bttn-portfolio">
             <a
@@ -45,7 +45,7 @@ const Contact = () => {
     );
   };
 
-  return <div className="grid"> {cardData.map(renderCard)}</div>;
+  return <div className="grid-contact"> {cardData.map(renderCard)}</div>;
 };
 
 export default Contact;
