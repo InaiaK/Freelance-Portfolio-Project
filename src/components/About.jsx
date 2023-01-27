@@ -8,10 +8,6 @@ import CAROL from "../assets/images/cc.jpeg";
 const About = () => {
   const aboutData = [
     {
-      img: CAROL,
-      title: "ABOUT",
-    },
-    {
       title: "ABOUT",
       description: (
         <div className="hide">
@@ -25,7 +21,9 @@ const About = () => {
         </div>
       ),
     },
-
+    {
+      img: CAROL,
+    },
     {
       title: "SKILLS",
       description: (
@@ -36,7 +34,7 @@ const About = () => {
           <li>JavaScript</li>
           <li>Python</li>
           <li>SQL</li>
-          <a
+              <a
             href="https://docs.google.com/document/d/1nN7rFU0CmW95K7je-mpHx60O4YQalkgj/edit"
             className="resume"
             target="_blank"
@@ -52,9 +50,10 @@ const About = () => {
   const renderAbout = ({ img, title, description }, index) => {
     return (
       <Card key={`about-card-${index}`} className="about-box">
+        {" "}
+        {title}
         <Card.Img src={img} />
         <Card.Body className="card-body">
-          {title}
           <Card.Text className="about-text">{description}</Card.Text>
         </Card.Body>
       </Card>
