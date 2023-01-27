@@ -1,6 +1,5 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { FaSave } from "react-icons/fa";
 import "./About.css";
 
 import CAROL from "../assets/images/cc.jpeg";
@@ -9,9 +8,13 @@ import CAROL from "../assets/images/cc.jpeg";
 const About = () => {
   const aboutData = [
     {
+      img: CAROL,
+      title: "ABOUT",
+    },
+    {
       title: "ABOUT",
       description: (
-        <p className="hide">
+        <div className="hide">
           Hello, My name is Carolina, I am a trustworthy professional looking
           for a Full Stack Developer role. I am studying towards an MBA with a
           concentration in IT with a 3.5 GPA. Well-qualified Full Stack
@@ -19,7 +22,7 @@ const About = () => {
           languages. I speak native Portuguese, English, and Spanish. I am a
           problem solver and a resourceful person that can handle any part of
           the process with ease.
-        </p>
+        </div>
       ),
     },
 
@@ -32,7 +35,7 @@ const About = () => {
           <li>React.js</li>
           <li>JavaScript</li>
           <li>Python</li>
-          <li>SQL</li><FaSave></FaSave>{" "}
+          <li>SQL</li>
           <a
             href="https://docs.google.com/document/d/1nN7rFU0CmW95K7je-mpHx60O4YQalkgj/edit"
             className="resume"
@@ -44,20 +47,15 @@ const About = () => {
         </ul>
       ),
     },
-
-    {
-         title: "CAROLINA VIEIRA",
-         img: CAROL, 
-     
-    },
   ];
 
-  const renderAbout = ({ img,title, description }, index) => {
+  const renderAbout = ({ img, title, description }, index) => {
     return (
       <Card key={`about-card-${index}`} className="about-box">
+        <Card.Img src={img} />
         <Card.Body className="card-body">
           {title}
-          <Card.Text className="about-text">{description}{img}</Card.Text>
+          <Card.Text className="about-text">{description}</Card.Text>
         </Card.Body>
       </Card>
     );

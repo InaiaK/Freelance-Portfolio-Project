@@ -6,8 +6,6 @@ import "./Contact.css";
 // Assets
 import LOGO from "../assets/images/logo.png";
 import GMAIL from "../assets/images/Gmail-Logo.png";
-import CAROL from "../assets/images/cc.jpeg";
-
 
 const Contact = () => {
   const cardData = [
@@ -23,12 +21,6 @@ const Contact = () => {
       title: "Carolina Vieira",
       deployed: "ca.simoesvieira@gmail.com",
      },
-     {
-     img: CAROL,
-     altText: "An animation showing use of the work plan app",
-     title: "Carolina Vieira",
-     deployed: "",
-    },
     
   ];
 
