@@ -1,7 +1,7 @@
 .video {
   position: absolute;
   object-fit: cover;
-  z-index: -2;
+  z-index: -1;
 }
 
 .home-title {
@@ -28,7 +28,7 @@
   .video,
   .header {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 }
 
