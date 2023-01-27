@@ -1,11 +1,19 @@
-.navbar {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+.navbar{
+   background-color:rgba(167, 239, 159);
+
+}
+
+.mr-auto {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 17px;
   font-stretch: extra-expanded;
-  background-color:rgba(255, 192, 203, 0.685);
-  text-shadow: 0 5px 10px rgb(239, 239, 241);
-  display: flex;
   color: black;
+}
+.brand{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  padding-left: 3%;
+  font-stretch: extra-expanded;
 }
 
 @media (min-width: 200px) {

@@ -1,0 +1,50 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));    
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card-box{
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(221, 235, 205);
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.8)
+ }
+
+ .card-box:hover {
+  background-color: rgb(58, 56, 56);
+}
+
+.card-body{
+color:rgb(197, 255, 192);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+font-size: 15px;
+
+}
+
+.bttn-portfolio{
+transition: background-color 0.4s;
+margin-left: 5%;
+margin-bottom: 5%;
+}
+
+.bttn-portfolio:hover {
+  background-color: whitesmoke;
+}
+
+.a-portfolio{
+  color: rgb(212, 255, 192);
+}
+
+@media (max-width: 3500px){
+
+  .grid{
+   padding: 9%;
+  }
+  }
