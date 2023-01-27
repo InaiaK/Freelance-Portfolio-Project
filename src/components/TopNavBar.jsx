@@ -5,7 +5,7 @@ import "./TopNavBar.css";
 // Componentes
 import "./Home";
 import "./About";
-import "./Portfolio";
+import "./Contact";
 import { VscAccount } from "react-icons/vsc";
 
 function TopNavBar() {

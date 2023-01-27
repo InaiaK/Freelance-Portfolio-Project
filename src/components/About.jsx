@@ -3,6 +3,8 @@ import { Card } from "react-bootstrap";
 import { FaSave } from "react-icons/fa";
 import "./About.css";
 
+import CAROL from "../assets/images/cc.jpeg";
+
 // Functional component.
 const About = () => {
   const aboutData = [
@@ -30,35 +32,32 @@ const About = () => {
           <li>React.js</li>
           <li>JavaScript</li>
           <li>Python</li>
-          <li>SQL</li>
-        </ul>
-      ),
-    },
-
-    {
-      title: "RESUME",
-      description: (
-        <p className="hide">
-          <FaSave></FaSave>
+          <li>SQL</li><FaSave></FaSave>{" "}
           <a
             href="https://docs.google.com/document/d/1nN7rFU0CmW95K7je-mpHx60O4YQalkgj/edit"
             className="resume"
             target="_blank"
             rel="noreferrer"
           >
-            Resume
+            RESUME
           </a>
-        </p>
+        </ul>
       ),
+    },
+
+    {
+         title: "CAROLINA VIEIRA",
+         img: CAROL, 
+     
     },
   ];
 
-  const renderAbout = ({ title, description }, index) => {
+  const renderAbout = ({ img,title, description }, index) => {
     return (
-      <Card key={`about-card-${index}`} className="about-box" bg="dark">
+      <Card key={`about-card-${index}`} className="about-box">
         <Card.Body className="card-body">
           {title}
-          <Card.Text className="about-text">{description}</Card.Text>
+          <Card.Text className="about-text">{description}{img}</Card.Text>
         </Card.Body>
       </Card>
     );
