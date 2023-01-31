@@ -13,18 +13,18 @@ const Contact = () => {
       img: LOGO,
       altText: "linkedin logo",
       title: "Carolina Vieira",
-      deployed: "www.linkedin.com/in/mariacsvieira",
+      description: "www.linkedin.com/in/mariacsvieira",
      },
      {
       img: GMAIL,
       altText: "gmail logo",
       title: "Carolina Vieira",
-      deployed: "ca.simoesvieira@gmail.com",
+      description: "ca.simoesvieira@gmail.com",
      },
     
   ];
 
-  const renderCard = ({img, altText, title, description, deployed}, index) => {
+  const renderCard = ({img, altText, title, description}, index) => {
     return (
       <Card key={`portfolio-card-${index}`} className="card-box">
         <Card.Img className="card-img-c" src={img} alt={altText} />
@@ -32,14 +32,14 @@ const Contact = () => {
           <Button variant="dark" className="bttn-portfolio">
             <a
               className="a-portfolio"
-              href={deployed}
+              href={description}
               target="_blank"
               rel="noreferrer noopener"
             >
               {title}
             </a>
           </Button>
-          <Card.Text>{description}</Card.Text>
+          <Card.Text></Card.Text>
         </Card.Body>
       </Card>
     );
