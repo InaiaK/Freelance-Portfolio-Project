@@ -12,33 +12,31 @@ const Contact = () => {
     {
       img: LOGO,
       altText: "linkedin logo",
-      title: "Carolina Vieira",
-      description: "www.linkedin.com/in/mariacsvieira",
+      description: (    <a
+        className="a-portfolio"
+        href={"https://www.linkedin.com/in/mariacsvieira/"}
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+     Carolina Vieira. 
+      </a>),
      },
      {
       img: GMAIL,
       altText: "gmail logo",
-      title: "Carolina Vieira",
       description: "ca.simoesvieira@gmail.com",
      },
     
   ];
 
-  const renderCard = ({img, altText, title, description}, index) => {
+  const renderCard = ({img, altText,description}, index) => {
     return (
       <Card key={`portfolio-card-${index}`} className="card-box">
         <Card.Img className="card-img-c" src={img} alt={altText} />
         <Card.Body className="card-body">
           <Button variant="dark" className="bttn-portfolio">
-            <a
-              className="a-portfolio"
-              href={description}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {title}
-            </a>
-          </Button>
+        {description}
+          </Button> 
           <Card.Text></Card.Text>
         </Card.Body>
       </Card>
