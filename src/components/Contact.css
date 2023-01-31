@@ -11,41 +11,42 @@
 }
 
 .card-img-c{
-  height: 85%;
-  width: 85%;
-  border-radius: 5rem;
-  margin-left: 1rem;
+  width: 60%;
+  height: 70%;
+  padding-left: 30%;
+  margin-left: 5%;
+  display: flex;
 }
 .card-box{
   padding-top: 1rem;
   padding-left: 1rem;
   height: 100%;
   width: 100%;
-  background-color: rgb(221, 235, 205);
+  background-color: rgb(221, 235, 205,0.8);
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.8)
  }
 
 
 .card-body{
-color:rgb(197, 255, 192);
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+color:rgb(207, 231, 159);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align: center;
 font-size: 15px;
 
 }
 
 .bttn-portfolio{
-transition: background-color 0.4s;
+transition: background-color 0.3s;
 margin-left: 5%;
 margin-bottom: 5%;
 }
 
-.bttn-portfolio:hover {
-  background-color: whitesmoke;
+.bttn-contact:hover {
+  background-color: rgb(80, 83, 80);
 }
 
-.a-portfolio{
-  color: rgb(212, 255, 192);
+.a-contact{
+  color:black;
 }
 
 @media (max-width: 3500px){
