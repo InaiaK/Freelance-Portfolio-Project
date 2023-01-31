@@ -11,17 +11,18 @@
 }
 
 .card-img-c{
-  height: 85%;
-  width: 85%;
-  border-radius: 5rem;
-  margin-left: 1rem;
+  width: 60%;
+  height: 70%;
+  padding-left: 30%;
+  margin-left: 5%;
+  display: flex;
 }
 .card-box{
   padding-top: 1rem;
   padding-left: 1rem;
   height: 100%;
   width: 100%;
-  background-color: rgb(221, 235, 205);
+  background-color: rgb(221, 235, 205,0.8);
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.8)
  }
 
