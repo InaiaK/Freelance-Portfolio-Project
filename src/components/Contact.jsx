@@ -43,7 +43,7 @@ const Contact = () => {
       <Card key={`portfolio-card-${index}`} className="card-box">
         <Card.Img className="card-img-c" src={img} alt={altText} />
         <Card.Body className="card-body">
-          <Button variant="dark" className="bttn-portfolio">
+          <Button variant="dark" className="bttn-contact">
             {description}
           </Button>
           <Card.Text></Card.Text>

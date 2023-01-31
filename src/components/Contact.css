@@ -28,25 +28,25 @@
 
 
 .card-body{
-color:rgb(197, 255, 192);
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+color:rgb(16, 16, 16);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align: center;
 font-size: 15px;
 
 }
 
 .bttn-portfolio{
-transition: background-color 0.4s;
+transition: background-color 0.3s;
 margin-left: 5%;
 margin-bottom: 5%;
 }
 
-.bttn-portfolio:hover {
-  background-color: whitesmoke;
+.bttn-contact:hover {
+  background-color: rgb(133, 141, 133);
 }
 
-.a-portfolio{
-  color: rgb(212, 255, 192);
+.a-contact{
+  color:black;
 }
 
 @media (max-width: 3500px){
