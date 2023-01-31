@@ -28,7 +28,7 @@
 
 
 .card-body{
-color:rgb(16, 16, 16);
+color:rgb(207, 231, 159);
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align: center;
 font-size: 15px;
@@ -42,7 +42,7 @@ margin-bottom: 5%;
 }
 
 .bttn-contact:hover {
-  background-color: rgb(133, 141, 133);
+  background-color: rgb(183, 224, 183);
 }
 
 .a-contact{

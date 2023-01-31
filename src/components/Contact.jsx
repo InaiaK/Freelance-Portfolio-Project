@@ -19,7 +19,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
-          Carolina Vieira.
+          Carolina Vieira
         </a>
       ),
     },
