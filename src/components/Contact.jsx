@@ -5,7 +5,7 @@ import "./Contact.css";
 
 // Assets
 import LOGO from "../assets/images/logo.png";
-import GMAIL from "../assets/images/Gmail-Logo.png";
+import GMAIL from "../assets/images/gmail.png";
 
 const Contact = () => {
   const cardData = [
