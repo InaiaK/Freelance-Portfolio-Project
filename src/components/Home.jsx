@@ -5,7 +5,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="header">
-      <h1 className="home-title"> Carolina</h1>
+      <h1 className="home-title"> Carolina </h1>
       <h2 className="home-subtitle"> Full Stack Web Developer </h2>
     </div>
   );

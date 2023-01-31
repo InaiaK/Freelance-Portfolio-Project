@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Contact.css";
-//FaMailBulk, FaLinkedin, FaGithub
+
 // Assets
 import LOGO from "../assets/images/logo.png";
 import GMAIL from "../assets/images/Gmail-Logo.png";
@@ -56,36 +56,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-// {
-//   title: "CONTACT",
-//   description: (
-//     <ul className="hide">
-//       <li>
-//         <FaMailBulk></FaMailBulk> inaiakenia15@gmail.com
-//       </li>
-//       <li>
-//         <FaGithub></FaGithub>
-//         <a
-//           href="https://github.com/InaiaK"
-//           className="github"
-//           target="_blank"
-//           rel="noreferrer"
-//         >
-//           GitHub
-//         </a>
-//       </li>
-//       <li>
-//         <FaLinkedin></FaLinkedin>
-//         <a
-//           href="https://www.linkedin.com/in/inaia-martin/"
-//           className="linkedin"
-//           target="_blank"
-//           rel="noreferrer"
-//         >
-//           Linkedin
-//         </a>
-//       </li>
-//     </ul>
-//   ),
-// },
