@@ -38,7 +38,7 @@ const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            RESUME
+           Carolina's Resume
           </a>
         </ul>
       ),
