@@ -40,7 +40,7 @@ const Contact = () => {
 
   const renderCard = ({ img, altText, description }, index) => {
     return (
-      <Card key={`portfolio-card-${index}`} className="card-box">
+      <Card key={`portfolio-card-${index}`} className="card-box-c">
         <Card.Img className="card-img-c" src={img} alt={altText} />
         <Card.Body className="card-body">
           <Button variant="dark" className="bttn-contact">
