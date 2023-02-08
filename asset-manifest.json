@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/carolinaportfolio/static/css/main.587ade7b.css",
+    "main.js": "/carolinaportfolio/static/js/main.cba57b8c.js",
+    "static/media/background5.mp4": "/carolinaportfolio/static/media/background5.ac5a81e8e3170de369fe.mp4",
+    "static/media/cc.jpeg": "/carolinaportfolio/static/media/cc.e64535b17938e272903a.jpeg",
+    "static/media/gmail.png": "/carolinaportfolio/static/media/gmail.af622e50e3a4da0c013d.png",
+    "static/media/logo.png": "/carolinaportfolio/static/media/logo.dee31da8e306dbdc1aba.png",
+    "index.html": "/carolinaportfolio/index.html",
+    "main.587ade7b.css.map": "/carolinaportfolio/static/css/main.587ade7b.css.map",
+    "main.cba57b8c.js.map": "/carolinaportfolio/static/js/main.cba57b8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.587ade7b.css",
+    "static/js/main.cba57b8c.js"
+  ]
+}
